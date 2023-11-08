@@ -1,52 +1,47 @@
-[
- {
-  "TIPO_TERCERO": "1",
-  "NIT": "000000222222222",
-  "CODIGO": "222222222",
-  "DESCRIPCION": "222222222",
-  "SUCURSAL": "00",
-  "DIRECCION_1": "CR 22 17 22",
-  "TELEFONO_1": "               ",
-  "LISTA_PRECIOS": "001"
- },
- {
-  "TIPO_TERCERO": "1",
-  "NIT": "000000900632219",
-  "CODIGO": "900632219",
-  "DESCRIPCION": "2MR INGENIERIA SAS",
-  "SUCURSAL": "00",
-  "DIRECCION_1": "DIAG 35 16 60",
-  "TELEFONO_1": "3143549433",
-  "LISTA_PRECIOS": "001"
- },
- {
-  "TIPO_TERCERO": "1",
-  "NIT": "000000860002693",
-  "CODIGO": "860002693",
-  "DESCRIPCION": "3M COLOMBIA SA",
-  "SUCURSAL": "00",
-  "DIRECCION_1": "AV DORADO 75 93",
-  "TELEFONO_1": "4161666",
-  "LISTA_PRECIOS": "001"
- },
- {
-  "TIPO_TERCERO": "1",
-  "NIT": "444444443",
-  "CODIGO": "444444443",
-  "DESCRIPCION": "3M GLOBAL CHANNEL SERVICES INVOICE",
-  "SUCURSAL": "00",
-  "DIRECCION_1": "7282 NW 66TH ST MIAMI FL 331663008",
-  "TELEFONO_1": "               ",
-  "LISTA_PRECIOS": "001"
- },
- {
-  "TIPO_TERCERO": "1",
-  "NIT": "000000901392980",
-  "CODIGO": "901392980",
-  "DESCRIPCION": "4ESE SAS",
-  "SUCURSAL": "00",
-  "DIRECCION_1": "CR 30 6 89",
-  "TELEFONO_1": "3017427800",
-  "LISTA_PRECIOS": "001"
- }
-]
+{ "data":
+    [{"ruta":1,"conductor":"pedro perez","usuario":"pperez","placa":"MY454","estadoRuta":"A","fotoDocRegreso":"","observaCargue":"","observaEntrega":"",
+"fechaCargue":"","fechaFinRuta":"",
+
+"pedido":[{"remision":"7023","pedido":"322","nroOrdenRuta":1, "nroOrdenRutaReal":0,"flagPagoEntrega":1,"vlrPedido":250000,"vlrRecaudo":0,"cliente":"malusca","direccion":"calle 10 con mi casa","telefono":"1234567","latitudPedido":"4.755357896129471","longitudPedido":"-75.91503362369001","latitudEntrega":"","longitudEntrega":"","caracterizacion":"ENTREGAR de 8 a 12","clasePedido":"E","idNovedad":" ","observaCarguePedido":"","observaEntregaPedido":"","fotoDocEntrega":"","estadoPedido":11,"fechaEntrega":" ",
+"firma":"",
+
+
+"detalle":[{"tipoEmpaque":"caj","codEmpaque":"CJ0011010","estadoDetallePedido":11,"latitudEntregaDet":"","longitudEntregaDet":"","entregado":0,
+"detalleEmpaque" :[
+{"idItem":"234350","descItem":"mesa comedor"  ,"cantidad":3,"estadoDetEmpaque":11,"idNovedad":" ","cantRec":0 ,"observaEntregaDet":""},
+{"idItem":"234351","descItem":"silla comedor"  ,"cantidad":2 ,"estadoDetEmpaque":11,"idNovedad":" ","cantRec":0,"observaEntregaDet":""  },
+{"idItem":"234353","descItem":"mueble auxiliar"  ,"cantidad":3 ,"estadoDetEmpaque":11,"idNovedad":" ","cantRec":0 ,"observaEntregaDet":""}]},
+
+{"tipoEmpaque":"caj","codEmpaque":"CJ0011011" ,"estadoDetallePedido":11,"latitudEntregaDet":"","longitudEntregaDet":"","entregado":0,
+
+"detalleEmpaque" :[{"idItem":"234354","descItem":"botellas4", "cantidad":5,"estadoDetEmpaque":11,"idNovedad":" ","cantRec":0 ,"observaEntregaDet":"" }]} ]    } , 
+
+
+{"remision":"7024","pedido":"323","nroOrdenRuta":2, "nroOrdenRutaReal":0,"flagPagoEntrega":0,"vlrPedido":0,"vlrRecaudo":0,"cliente":"pepin de los palotes","direccion":"calle 10 con la otra casa, cera del parque donde van los niños a jugar balón, barrio de por mi casa","telefono":"89101123","latitudPedido":"4.750462209610555","longitudPedido":"-75.91327006559587","latitudEntrega":"","longitudEntrega":"","caracterizacion":"LO recibe otra persona, Pedro Perez","clasePedido":"E","idNovedad":" ","observaCarguePedido":"","observaEntregaPedido":"","fotoDocEntrega":"","estadoPedido":11,"fechaEntrega":" ",
+"firma":"",
+
+
+"detalle":[{"tipoEmpaque":"caj","codEmpaque":"CJ0011012","estadoDetallePedido":11,"latitudEntregaDet":"","longitudEntregaDet":"", "entregado":0,
+
+"detalleEmpaque" :[
+{"idItem":"234355","descItem":"bot5"  ,"cantidad":3,"estadoDetEmpaque":11,"idNovedad":" ","cantRec":0 ,"observaEntregaDet":"" },
+{"idItem":"234358","descItem":"bot8"  ,"cantidad":3 ,"estadoDetEmpaque":11,"idNovedad":" ","cantRec":0 ,"observaEntregaDet":""}]},
+
+{"tipoEmpaque":"caj","codEmpaque":"CJ0011013" ,"estadoDetallePedido":11,"latitudEntregaDet":"","longitudEntregaDet":"","entregado":0,
+
+ "detalleEmpaque" :[{"idItem":"234359","descItem":"bot10", "cantidad":5,"estadoDetEmpaque":11,"idNovedad":" ","cantRec":0 ,"observaEntregaDet":"" }]} ]},
+
+
+
+
+
+{"remision":"7025","pedido":"315","nroOrdenRuta":8, "nroOrdenRutaReal":0,"flagPagoEntrega":0,"vlrPedido":0,"vlrRecaudo":0,"cliente":"luisin","direccion":"calle 10 donde ya estuve","telefono":"5656544","latitudPedido":"4.762441549602436","longitudPedido":"-75.93901276612797","latitudEntrega":"","longitudEntrega":"","caracterizacion":"RECOGER de 8 a 12","clasePedido":"R","idNovedad":" ","observaCarguePedido":"","observaEntregaPedido":"","fotoDocEntrega":"","estadoPedido":11,"fechaEntrega":" ",
+"firma":"",
+
+"detalle":[{"tipoEmpaque":"caj","codEmpaque":"CJ0011018","estadoDetallePedido":11,"latitudEntregaDet":"","longitudEntregaDet":"",  "entregado":0,
+
+"detalleEmpaque" :[
+{"idItem":"234200","descItem":"vaso 1"  ,"cantidad":1,"estadoDetEmpaque":11, "idNovedad":" ","cantRec":0 ,"observaEntregaDet":"" },
+{"idItem":"234201","descItem":"vaso 2"  ,"cantidad":1 ,"estadoDetEmpaque":11, "idNovedad":" ","cantRec":0 ,"observaEntregaDet":"" }
+]} ]}
+]} ]}
